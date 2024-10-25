@@ -1,0 +1,67 @@
+body {
+    background-color: #fffae5;
+    padding-top: 100px;
+}
+
+html{
+    scroll-padding-top: 60px;
+}
+
+.navbar {
+    background-color: #f8f9fa;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.nav-item,
+.nav-link {
+    font-size: 20px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-item .nav-link:hover {
+    color: #ffb100;
+    background-color: rgba(255, 177, 0, 0.1);
+    border-radius: 5px;
+}
+
+h1{
+    color: #8b4513;
+}
+
+.btn {
+    font-size: 20px;
+    line-height: 20px;
+    color: black;
+    background-color: #ff6347;
+    border-color: #ffdd32;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #ffb100;
+    color: black;
+}
+
+.hover-shadow{
+    border-color: #333333;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+.hover-shadow:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.transition-all {
+    transition: all 0.3s ease;
+}
+
+.card {
+    border: 2px solid black
+}

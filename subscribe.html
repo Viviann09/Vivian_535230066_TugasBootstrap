@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Subscribe</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" style="color: #8b4513" href="#">Lifestyle Vibes</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="d-flex">
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #8b4513" aria-current="page" href="home.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #8b4513" aria-current="page"
+                                href="home.html#aboutsection">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #8b4513" aria-current="page"
+                                href="contact.html">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" style="color: #8b4513" aria-current="page"
+                                href="subscribe.html">Subscribe</a>
+                        </li>
+                    </ul>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <section id="subscribe" class="container pt-5">
+        <h1 class="text-center mb-4">Subscribe to Our Plans</h1>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm hover-shadow transition-all">
+                    <div class="card-header text-center" style="background-color: #ff6f61;">
+                        <h4 class="my-0 fw-bold">VVIP</h4>
+                    </div>
+                    <div class="card-body" style="background-color: #fff9f0;">
+                        <h1 class="card-title pricing-card-title">$69 <small class="text-muted">/ month</small></h1>
+                        <ul class="list-styled mt-3 mb-4">
+                            <li>Unlimited access to all articles</li>
+                            <li>Personalized content</li>
+                            <li>Priority support</li>
+                            <li>Exclusive discounts</li>
+                        </ul>
+                        <button type="submit" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#subscribeModal">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm hover-shadow transition-all">
+                    <div class="card-header text-center" style="background-color: #ff6f61">
+                        <h4 class="my-0 fw-bold">VIP</h4>
+                    </div>
+                    <div class="card-body" style="background-color: #fff9f0;">
+                        <h1 class="card-title pricing-card-title">$49 <small class="text-muted">/ month</small></h1>
+                        <ul class="list-styled mt-3 mb-4">
+                            <li>Access to premium articles</li>
+                            <li>Monthly newsletter</li>
+                            <li>Basic support</li>
+                            <li>Member-only offers</li>
+                        </ul>
+                        <button type="submit" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#subscribeModal">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm hover-shadow transition-all">
+                    <div class="card-header text-center" style="background-color: #ff6f61;">
+                        <h4 class="my-0 fw-bold">Basic</h4>
+                    </div>
+                    <div class="card-body" style="background-color: #fff9f0;">
+                        <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ month</small></h1>
+                        <ul class="list-styled mt-3 mb-4">
+                            <li>Access to free articles</li>
+                            <li>Weekly newsletter</li>
+                            <li>Community support</li>
+                        </ul>
+                        <button type="submit" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal"
+                data-bs-target="#subscribeModal">Subscribe Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="subscribeModal" tabindex="-1" aria-labelledby="subscribeModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content" style="background-color: #f8f3ee;">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color: #8b4513" id="subscribeModalLabel">Subscription Successful</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        Thank you for subscribing! You will receive the latest updates in your inbox.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="card text-center" style="border:none">
+        <div class="card-footer text-light pt-2" style=" position: fixed; bottom:0; width: 100%; background-color:black; height:50px">
+            Copyright &copy 2024 Lifestyle
+            <a href="#" class="text-light">Privacy Policy</a>
+            <a href="#" class="text-light">Terms & Conditions</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
